@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "description": "Card Number Used",
+    "authorizedUser": "Diana",
+    "type": "Credit",
+    "amount": 14.06,
+    "cashbackPercent": 3,
+    "date": "2026-03-31T14:22:00.000Z",
+    "status": "Pending",
+    "icon": "apple-dark",
+    "cardType": "RBC Bank Debit Card"
+  },
+  {
+    "id": 2,
+    "name": "Payment",
+    "description": "From JPMorgan Chase Bank National Association",
+    "type": "Payment",
+    "amount": 174.0,
+    "date": "2026-03-30T09:15:00.000Z",
+    "status": "Approved",
+    "icon": "payment",
+    "cardType": "RBC Bank Debit Card"
+  },
+  {
+    "id": 3,
+    "name": "Apple",
+    "description": "Card Number Used",
+    "authorizedUser": "Diana",
+    "type": "Credit",
+    "amount": 3.24,
+    "cashbackPercent": 3,
+    "date": "2026-03-30T11:05:00.000Z",
+    "status": "Approved",
+    "icon": "apple-dark",
+    "cardType": "RBC Bank Debit Card"
+  },
+  {
+    "id": 4,
+    "name": "Payment",
+    "description": "From JPMorgan Chase Bank National Association",
+    "type": "Payment",
+    "amount": 99.71,
+    "date": "2026-03-28T08:00:00.000Z",
+    "status": "Approved",
+    "icon": "payment",
+    "cardType": "RBC Bank Debit Card"
+  },
+  {
+    "id": 5,
+    "name": "Payment",
+    "description": "From JPMorgan Chase Bank National Association",
+    "type": "Payment",
+    "amount": 73.58,
+    "date": "2026-03-26T16:44:00.000Z",
+    "status": "Approved",
+    "icon": "payment",
+    "cardType": "RBC Bank Debit Card"
+  },
+  {
+    "id": 6,
+    "name": "IKEA",
+    "description": "Round Rock, TX",
+    "type": "Credit",
+    "amount": 21.61,
+    "cashbackPercent": 2,
+    "date": "2022-10-01T13:20:00.000Z",
+    "status": "Approved",
+    "icon": "ikea",
+    "cardType": "RBC Bank Debit Card"
+  },
+  {
+    "id": 7,
+    "name": "Target",
+    "description": "Cedar Park, TX",
+    "type": "Credit",
+    "amount": 73.58,
+    "cashbackPercent": 2,
+    "date": "2022-09-28T10:30:00.000Z",
+    "status": "Approved",
+    "icon": "target",
+    "cardType": "RBC Bank Debit Card"
+  },
+  {
+    "id": 8,
+    "name": "Airalo",
+    "description": "Card Number Used",
+    "type": "Credit",
+    "amount": 7.5,
+    "cashbackPercent": 1,
+    "date": "2022-05-26T12:47:00.000Z",
+    "status": "Approved",
+    "icon": "apple-dark",
+    "cardType": "RBC Bank Debit Card"
+  },
+  {
+    "id": 9,
+    "name": "Amazon",
+    "description": "Online Purchase",
+    "type": "Credit",
+    "amount": 42.99,
+    "cashbackPercent": 2,
+    "date": "2022-05-10T18:10:00.000Z",
+    "status": "Approved",
+    "icon": "amazon",
+    "cardType": "RBC Bank Debit Card"
+  },
+  {
+    "id": 10,
+    "name": "Payment",
+    "description": "From JPMorgan Chase Bank National Association",
+    "type": "Payment",
+    "amount": 200.0,
+    "date": "2022-04-30T07:00:00.000Z",
+    "status": "Approved",
+    "icon": "payment",
+    "cardType": "RBC Bank Debit Card"
+  }
+]
