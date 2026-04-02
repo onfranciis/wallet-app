@@ -16,7 +16,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div style={{ paddingTop: 70 }}>
+    <div style={{ paddingTop: 30 }}>
       {selectedTransaction ? (
         <TransactionDetail
           transaction={selectedTransaction}
