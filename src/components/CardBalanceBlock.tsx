@@ -7,7 +7,7 @@ function getRandomBalance(): number {
   return Math.round((Math.random() * 490 + 10) * 100) / 100;
 }
 
-const cardStyle: React.CSSProperties = {
+export const CardStyle: React.CSSProperties = {
   background: "white",
   borderRadius: 16,
   padding: "14px 16px",
@@ -24,14 +24,14 @@ export const BalanceCard: React.FC = () => {
       style={{
         display: "flex",
         flexDirection: "column",
-
         gap: 15,
       }}
     >
-      <div style={cardStyle}>
+      <div style={CardStyle}>
         <div style={{ fontSize: 13, color: "#6B6B6B", marginBottom: 2 }}>
           Card Balance
         </div>
+
         <div
           style={{
             fontSize: 28,
@@ -51,7 +51,7 @@ export const BalanceCard: React.FC = () => {
       </div>
 
       {/* Daily Points */}
-      <div style={cardStyle}>
+      <div style={CardStyle}>
         <div style={{ fontSize: 13, color: "#6B6B6B", marginBottom: 2 }}>
           Daily Points
         </div>
@@ -63,7 +63,7 @@ export const BalanceCard: React.FC = () => {
 };
 
 export const NoPaymentDueCard: React.FC = () => (
-  <div style={{ ...cardStyle, display: "flex", flexDirection: "column" }}>
+  <div style={{ ...CardStyle, display: "flex", flexDirection: "column" }}>
     <div
       style={{
         fontSize: 15,
@@ -80,7 +80,6 @@ export const NoPaymentDueCard: React.FC = () => (
 
     <div
       style={{
-        // padding: "14px 16px",
         display: "flex",
         alignItems: "",
         justifyContent: "flex-end",

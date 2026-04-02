@@ -22,7 +22,6 @@ const TransactionItem: React.FC<TransactionItemProps> = ({
     date,
     status,
   } = transaction;
-  const isPayment = type === "Payment";
   const isPending = status === "Pending";
   const amountStr = formatAmount(amount, type);
   const dateStr = formatTransactionDate(date);
@@ -54,6 +53,7 @@ const TransactionItem: React.FC<TransactionItemProps> = ({
         <div style={{ fontSize: 16, fontWeight: 700, color: "#1C1C1E" }}>
           {name}
         </div>
+
         <div
           style={{
             fontSize: 13,
@@ -67,6 +67,7 @@ const TransactionItem: React.FC<TransactionItemProps> = ({
           {isPending && <span>Pending - </span>}
           {description}
         </div>
+
         <div style={{ fontSize: 13, color: "#8E8E93" }}>
           {authorizedUser ? `${authorizedUser} – ${dateStr}` : dateStr}
         </div>
